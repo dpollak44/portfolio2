@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   res.render('index', {
     name: 'David Pollak',
-    position: 'Software Develper'
+    position: 'full-stack develper'
   });
 });
 
